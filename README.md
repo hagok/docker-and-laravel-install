@@ -67,5 +67,5 @@ docker exec -it app_project bash
 php artisan migrate
 ```
 15. Обновляем `http://localhost:777/`.
-16. Открываем твой любимы PHPStorm и ждем индексацию проекта.
+16. Открываем твой любимый PHPStorm и ждем индексацию проекта.
 17. Вуаля! Laravel на базе! Начинаем управлять миром (:
