@@ -1,10 +1,10 @@
-# Установка laravel с использованием Docker
+# Установка laravel с использованием Docker-compose
 
 Здесь готовые файлы для установки на Docker проекта laravel 12:
 1. php:8.2-fpm
 2. nginx:latest
 3. mysql:8.0
-+ Composer
+4. composer
 ##
 
 <br/>
@@ -23,7 +23,7 @@ docker-compose up -d
 ```
 docker exec -it app_project bash
 ```
-5. В нутри создаем новый проект laravel:
+5. Внутри создаем новый проект laravel:
 ```
 composer create-project laravel/laravel
 ```
